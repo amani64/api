@@ -12,4 +12,9 @@ class ApiServiceProvider
     public function boot()
     {
     }
+    
+    public function register() 
+    {
+    }
+        
 }
