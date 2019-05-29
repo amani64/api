@@ -2,7 +2,7 @@
 
 namespace Amani64\Api;
 
-class APIServiceProvider
+class ApiServiceProvider
 {
     /**
      * Boot the service provider.
