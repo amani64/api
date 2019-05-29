@@ -39,9 +39,7 @@
             "dev-master": "dev-master"
         },
         "laravel": {
-            "providers": [
-                "Amani64\\Api\\ApiServiceProvider"
-            ]
+        
         }
     },
     "config": {
