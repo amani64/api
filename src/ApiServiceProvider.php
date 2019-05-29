@@ -2,7 +2,7 @@
 
 namespace Amani64\Api;
 
-class APIServiceProvider
+class ApiServiceProvider
 {
     /**
      * Boot the service provider.
@@ -10,6 +10,10 @@ class APIServiceProvider
      * @return void
      */
     public function boot()
+    {
+    }
+    
+    public function register() 
     {
     }
 }
