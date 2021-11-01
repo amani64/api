@@ -154,9 +154,8 @@ class Factory
             $class = get_class($paginator->first());
         }
 
-        $binding = $this->transformer->register($class, $transformer, $parameters, $after);
-
-        return new ApiResponse($paginator, 200, [], $binding);
+        $this->transformer->register($class, $transformer, $parameters, $after);
+        return $this->transformer->transform($paginator);
     }
 
     /**
