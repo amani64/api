@@ -34,11 +34,6 @@
         "psr-4": {
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "dev-master"
-        }
-    },
     "config": {
         "sort-packages": true
     },
